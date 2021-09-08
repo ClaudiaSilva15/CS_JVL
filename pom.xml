@@ -44,4 +44,12 @@
   <build>
     <finalName>JavaVulnerableLab</finalName>
   </build>
+	
+ <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>a0sryx5yoazcy-artifactory-primary-0-snapshots</name>
+      <url>https://internscheck.jfrog.io/artifactory/default-libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
